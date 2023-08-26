@@ -23,3 +23,8 @@ insert into department values	('Beach', 5, 123456781, '1991-08-01', '1988-05-05'
 insert into dept_locations values	(3, 'Chicago'),
 									(4, 'Vanuatu'),
                                     (5, 'Omaha');
+
+insert into project values ('PlayStation', 3, 'Vanuatu', 4),
+						   ('Breitling', 10, 'Vanuatu', 4),
+                           ('AMG', 20, 'Chicago', 3),
+                           ('Pagani', 30, 'Omaha', 5);

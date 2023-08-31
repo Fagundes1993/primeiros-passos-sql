@@ -75,7 +75,7 @@ select * from employee;
 select * from dependent;
 
 select * from employee inner join dependent on Ssn = Essn;
-select * from employee left join dependent on Ssn = Essn;
+select * from employee left join dependent on Ssn = Essn; -- todos os empregados com ou sem dependente
 
 select * from employee left outer join dependent on Ssn = Essn;
 
